@@ -4,6 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
+import NavLink from "./navLink";
+
 const links = [
   { url: "/", title: "Home" },
   { url: "/about", title: "About" },
@@ -19,9 +21,7 @@ const Navbar = () => {
       {/* LINKS */}
       <div className="hidden md:flex gap-4 w-1/3">
         {links.map((link) => (
-          <Link href={link.url} key={link.title}>
-            {link.title}
-          </Link>
+          <NavLink link={link} key={link.title} />
         ))}
       </div>
 
@@ -40,13 +40,13 @@ const Navbar = () => {
 
       {/* SOCIAL */}
       <div className="hidden md:flex gap-4 w-1/3">
-        <Link href="/">
+        <Link href="https://www.linkedin.com/in/solarluiso/" target="_blank">
           <Image src="/linkedin.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="/">
+        <Link href="https://github.com/solarluiso" target="_blank">
           <Image src="/github.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="/">
+        <Link href="https://discordapp.com/users/solarluiso" target="_blank">
           <Image src="/discord.png" alt="" width={24} height={24} />
         </Link>
       </div>
