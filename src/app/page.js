@@ -1,4 +1,5 @@
 "use client";
+
 import { motion } from "framer-motion";
 
 import Image from "next/image";
@@ -17,23 +18,27 @@ const Homepage = () => {
           <Image src="/hero.png" alt="" fill className="object-contain" />
         </div>
         {/* TEXT CONTAINER */}
-        <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center lg:items-start justify-center">
-          {/* NAME */}
-          <h1 className="text-4xl md:text-6xl font-bold">Luis Solar</h1>
+        <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
           {/* TITLE */}
-          <h1 className="text-2xl md:text-4xl">Frontend Developer</h1>
-          {/* DESCRIPTION */}
+          <h1 className="text-4xl md:text-6xl text-slate-600 font-bold">
+            Crafting Web Applications with Soul and Innovation
+          </h1>
+          {/* DESC */}
           <p className="md:text-xl">
-            Passionate about transforming ideas into practical solutions, I
-            thrive in collaborative environments, bringing creative concepts to
-            life through meticulous UI design and sophisticated web development
-            strategies. Enthusiastic about connecting and growing
-            professionally.
+            Welcome to my digital realm, where imagination meets creation. With
+            a sharp sense for design and a dedicated command of coding, my
+            portfolio features a variety of projects, all demonstrating my
+            commitment to excellence.
           </p>
-          {/* BUTTON */}
-          <button className="p-4 rounded-lg bg-black text-white">
-            Download CV
-          </button>
+          {/* BUTTONS */}
+          <div className="w-full flex gap-4">
+            <button class="cursor-pointer text-white bg-gradient-to-r from-gray-800 to-black p-4 rounded-lg border border-gray-600 hover:scale-105 duration-200 hover:text-gray-500 hover:border-gray-800 hover:from-black hover:to-gray-900">
+              View My Work
+            </button>
+            <button className="p-4 rounded-lg ring-1 ring-black">
+              Contact Me
+            </button>
+          </div>
         </div>
       </div>
     </motion.div>
