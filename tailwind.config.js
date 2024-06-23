@@ -12,6 +12,17 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        "light-grey": "#5A698F",
+        "dark-grey": "#485472",
+        "pretty-purple": "#a997f0",
+        "pretty-green": "#7acabf",
+        "semi-dark-green": "#3e8088",
+        "dark-green": "#435f69",
+      },
+      fontFamily: {
+        jetbrains: ["var(--font-jetbrains-mono)", "monospace"],
+      },
     },
   },
   plugins: [],

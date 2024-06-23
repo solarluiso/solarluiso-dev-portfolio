@@ -68,13 +68,13 @@ const AboutPage = () => {
             >
               <path
                 d="M5 15C5 16.8565 5.73754 18.6371 7.05029 19.9498C8.36305 21.2626 10.1435 21.9999 12 21.9999C13.8565 21.9999 15.637 21.2626 16.9498 19.9498C18.2625 18.6371 19 16.8565 19 15V9C19 7.14348 18.2625 5.36305 16.9498 4.05029C15.637 2.73754 13.8565 2 12 2C10.1435 2 8.36305 2.73754 7.05029 4.05029C5.73754 5.36305 5 7.14348 5 9V15Z"
-                stroke="#334155"
+                stroke="#5A698F"
                 strokeWidth="1"
               ></path>
-              <path d="M12 6V14" stroke="#334155" strokeWidth="1"></path>
+              <path d="M12 6V14" stroke="#5A698F" strokeWidth="1"></path>
               <path
                 d="M15 11L12 14L9 11"
-                stroke="#334155"
+                stroke="#5A698F"
                 strokeWidth="1"
               ></path>
             </motion.svg>
@@ -96,49 +96,49 @@ const AboutPage = () => {
               animate={isSkillRefInView ? { x: 0 } : {}}
               className="flex gap-4 flex-wrap"
             >
-              <div className="rounded  p-2 text-sm cursor-pointer bg-slate-700 text-white hover:bg-white hover:text-slate-700">
+              <div className="rounded  p-2 text-sm cursor-pointer bg-semi-dark-green text-white hover:bg-white hover:text-dark-grey">
                 JavaScript
               </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-slate-700 text-white hover:bg-white hover:text-slate-700">
+              <div className="rounded  p-2 text-sm cursor-pointer bg-semi-dark-green text-white hover:bg-white hover:text-dark-grey">
                 TypeScript
               </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-slate-700 text-white hover:bg-white hover:text-slate-700">
+              <div className="rounded  p-2 text-sm cursor-pointer bg-semi-dark-green text-white hover:bg-white hover:text-dark-grey">
                 React.js
               </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-slate-700 text-white hover:bg-white hover:text-slate-700">
+              <div className="rounded  p-2 text-sm cursor-pointer bg-semi-dark-green text-white hover:bg-white hover:text-dark-grey">
                 Next.js
               </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-slate-700 text-white hover:bg-white hover:text-slate-700">
+              <div className="rounded  p-2 text-sm cursor-pointer bg-semi-dark-green text-white hover:bg-white hover:text-dark-grey">
                 Astro
               </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-slate-700 text-white hover:bg-white hover:text-slate-700">
+              <div className="rounded  p-2 text-sm cursor-pointer bg-semi-dark-green text-white hover:bg-white hover:text-dark-grey">
                 Tailwind CSS
               </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-slate-700 text-white hover:bg-white hover:text-slate-700">
+              <div className="rounded  p-2 text-sm cursor-pointer bg-semi-dark-green text-white hover:bg-white hover:text-dark-grey">
                 MongoDB
               </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-slate-700 text-white hover:bg-white hover:text-slate-700">
+              <div className="rounded  p-2 text-sm cursor-pointer bg-semi-dark-green text-white hover:bg-white hover:text-dark-grey">
                 MySQL
               </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-slate-700 text-white hover:bg-white hover:text-slate-700">
+              <div className="rounded  p-2 text-sm cursor-pointer bg-semi-dark-green text-white hover:bg-white hover:text-dark-grey">
                 Node.js
               </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-slate-700 text-white hover:bg-white hover:text-slate-700">
+              <div className="rounded  p-2 text-sm cursor-pointer bg-semi-dark-green text-white hover:bg-white hover:text-dark-grey">
                 Express.js
               </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-slate-700 text-white hover:bg-white hover:text-slate-700">
+              <div className="rounded  p-2 text-sm cursor-pointer bg-semi-dark-green text-white hover:bg-white hover:text-dark-grey">
                 Framer Motion
               </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-slate-700 text-white hover:bg-white hover:text-slate-700">
+              <div className="rounded  p-2 text-sm cursor-pointer bg-semi-dark-green text-white hover:bg-white hover:text-dark-grey">
                 Webpack
               </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-slate-700 text-white hover:bg-white hover:text-slate-700">
+              <div className="rounded  p-2 text-sm cursor-pointer bg-semi-dark-green text-white hover:bg-white hover:text-dark-grey">
                 Vite
               </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-slate-700 text-white hover:bg-white hover:text-slate-700">
+              <div className="rounded  p-2 text-sm cursor-pointer bg-semi-dark-green text-white hover:bg-white hover:text-dark-grey">
                 Git
               </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-slate-700 text-white hover:bg-white hover:text-slate-700">
+              <div className="rounded  p-2 text-sm cursor-pointer bg-semi-dark-green text-white hover:bg-white hover:text-dark-grey">
                 Figma
               </div>
             </motion.div>
@@ -155,13 +155,13 @@ const AboutPage = () => {
             >
               <path
                 d="M5 15C5 16.8565 5.73754 18.6371 7.05029 19.9498C8.36305 21.2626 10.1435 21.9999 12 21.9999C13.8565 21.9999 15.637 21.2626 16.9498 19.9498C18.2625 18.6371 19 16.8565 19 15V9C19 7.14348 18.2625 5.36305 16.9498 4.05029C15.637 2.73754 13.8565 2 12 2C10.1435 2 8.36305 2.73754 7.05029 4.05029C5.73754 5.36305 5 7.14348 5 9V15Z"
-                stroke="#334155"
+                stroke="#5A698F"
                 strokeWidth="1"
               ></path>
-              <path d="M12 6V14" stroke="#334155" strokeWidth="1"></path>
+              <path d="M12 6V14" stroke="#5A698F" strokeWidth="1"></path>
               <path
                 d="M15 11L12 14L9 11"
-                stroke="#334155"
+                stroke="#5A698F"
                 strokeWidth="1"
               ></path>
             </motion.svg>
@@ -191,7 +191,7 @@ const AboutPage = () => {
                 {/* LEFT */}
                 <div className="w-1/3 ">
                   {/* JOB DATE */}
-                  <div className="px-3 pb-3 text-slate-500 text-sm font-semibold">
+                  <div className="px-3 pb-3 text-semi-dark-green text-sm font-semibold">
                     2024 - Present
                   </div>
                   {/* JOB TITLE */}
@@ -213,7 +213,7 @@ const AboutPage = () => {
                   {/* LINE */}
                   <div className="w-1 h-full bg-slate-700 rounded relative">
                     {/* LINE CIRCLE */}
-                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-slate-400 bg-white -left-2"></div>
+                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-semi-dark-green bg-white -left-2"></div>
                   </div>
                 </div>
                 {/* RIGHT */}
@@ -228,13 +228,13 @@ const AboutPage = () => {
                   {/* LINE */}
                   <div className="w-1 h-full bg-slate-700 rounded relative">
                     {/* LINE CIRCLE */}
-                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-slate-400 bg-white -left-2"></div>
+                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-semi-dark-green bg-white -left-2"></div>
                   </div>
                 </div>
                 {/* RIGHT */}
                 <div className="w-1/3 ">
                   {/* JOB DATE */}
-                  <div className="px-3 pb-3 text-slate-500 text-sm font-semibold">
+                  <div className="px-3 pb-3 text-semi-dark-green text-sm font-semibold">
                     2019 - 2024{" "}
                   </div>
                   {/* JOB TITLE */}
@@ -257,7 +257,7 @@ const AboutPage = () => {
                 {/* LEFT */}
                 <div className="w-1/3 ">
                   {/* JOB DATE */}
-                  <div className="px-3 pb-3 text-slate-500 text-sm font-semibold">
+                  <div className="px-3 pb-3 text-semi-dark-green text-sm font-semibold">
                     2010 - 2019{" "}
                   </div>
                   {/* JOB TITLE */}
@@ -275,7 +275,7 @@ const AboutPage = () => {
                   {/* LINE */}
                   <div className="w-1 h-full bg-slate-700 rounded relative">
                     {/* LINE CIRCLE */}
-                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-slate-400 bg-white -left-2"></div>
+                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-semi-dark-green bg-white -left-2"></div>
                   </div>
                 </div>
                 {/* RIGHT */}

@@ -20,7 +20,7 @@ const Homepage = () => {
         {/* TEXT CONTAINER */}
         <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
           {/* TITLE */}
-          <h1 className="text-4xl md:text-6xl text-slate-600 font-bold">
+          <h1 className="text-4xl md:text-6xl text-light-grey font-bold">
             Crafting Web Applications with Soul and Innovation
           </h1>
           {/* DESC */}
@@ -32,10 +32,25 @@ const Homepage = () => {
           </p>
           {/* BUTTONS */}
           <div className="w-full flex gap-4">
-            <button class="cursor-pointer text-white bg-gradient-to-r from-slate-800 to-slate-500 p-4 rounded-lg hover:scale-105 duration-200 hover:text-slate-200 hover:from-black hover:to-slate-700">
-              View My Work
+            <button class="flex justify-between p-4 rounded-lg ring-1 ring-pretty-purple tracking-wider shadow-xl hover:bg-semi-dark-green hover:text-white hover:scale-105 duration-500 hover:ring-1 w-[135px]">
+              Resume
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                class="w-5 h-5 animate-bounce"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3"
+                ></path>
+              </svg>
             </button>
-            <button className="p-4 rounded-lg ring-1 ring-slate-700">
+
+            <button className="p-4 rounded-lg ring-1 ring-pretty-purple shadow-xl hover:bg-semi-dark-green hover:text-white hover:scale-105 duration-500 hover:ring-1">
               Contact Me
             </button>
           </div>

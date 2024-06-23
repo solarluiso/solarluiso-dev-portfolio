@@ -70,17 +70,17 @@ const Contact = () => {
           <span>Dear Luiso,</span>
           <textarea
             rows={6}
-            className="bg-transparent border-b-2 border-b-slate-700 outline-none resize-none"
+            className="bg-transparent border-b-2 border-b-dark-grey outline-none resize-none"
             name="user_message"
           />
           <span>My email address is:</span>
           <input
             name="user_email"
             type="text"
-            className="bg-transparent border-b-2 border-b-slate-700 outline-none"
+            className="bg-transparent border-b-2 border-b-dark-grey outline-none"
           />
           <span>Regards!</span>
-          <button className="bg-slate-200 rounded font-semibold p-4">
+          <button className="bg-slate-200 p-4 rounded font-semibold">
             Send
           </button>
           {success && (
